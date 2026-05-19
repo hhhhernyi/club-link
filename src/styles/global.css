@@ -90,3 +90,17 @@ input {
 .animate-scale-in {
   animation: scaleIn 0.25s ease forwards;
 }
+
+/* Light mode overrides */
+[data-theme="light"] {
+  --bg:         #f4f4f0;
+  --surface:    #ffffff;
+  --surface2:   #e8e8e4;
+  --border:     #d0d0c8;
+  --accent:     #1a7a4a;
+  --accent-dim: #2ea864;
+  --danger:     #cc2244;
+  --warning:    #d4820a;
+  --text:       #1a1a20;
+  --text-dim:   #666677;
+}
